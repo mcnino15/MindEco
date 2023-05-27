@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultsCal">
+
+    <ScrollView
+        android:layout_width="424dp"
+        android:layout_height="839dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-4dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="450dp"
+                android:layout_height="415dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/iresult" />
+
+            <TextView
+                android:id="@+id/res_nev"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:text="Ahorra la cantidad de energía necesaria para mantener un refrigerador funcionando durante:"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cal_nev"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <ImageView
+                android:layout_width="424dp"
+                android:layout_height="337dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/iiresult" />
+            <TextView
+                android:id="@+id/res_com"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:text="Economiza la cantidad de combustible requerida para recorrer una distancia de:"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/cal_com"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <ImageView
+                android:layout_width="424dp"
+                android:layout_height="346dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/iiiresult" />
+            <TextView
+                android:id="@+id/res_ag"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:text="Preserva la cantidad de agua que una persona consumiría durante un período de:"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/cal_ag"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <ImageView
+                android:layout_width="424dp"
+                android:layout_height="410dp"
+                android:layout_marginBottom="1dp"
+                android:src="@drawable/ivresult" />
+            <TextView
+                android:id="@+id/res_ar"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:text="Contribuye a evitar la deforestación de:"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/cal_ar"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <ImageView
+                android:layout_width="424dp"
+                android:layout_height="373dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/vresult" />
+            <TextView
+                android:id="@+id/res_gas"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:text="Impide la emisión de:"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/cal_gas"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <ImageView
+                android:layout_width="424dp"
+                android:layout_height="187dp"
+                android:src="@drawable/viresult" />
+            <TextView
+                android:id="@+id/res_basura"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:text="Es equiparable a la capacidad de carga de:"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/cal_basura"
+                android:layout_width="261dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <Button
+                android:id="@+id/buttonback"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginEnd="10dp"
+                android:text="Back"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

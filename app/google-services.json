@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "146030325380",
+    "project_id": "mindeco-f6c3f",
+    "storage_bucket": "mindeco-f6c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146030325380:android:75c932a76ce0f9e2fb9cd1",
+        "android_client_info": {
+          "package_name": "xyz.ecomind.mindeco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD01ahFpNbdvHolTp0XrzyxJfytXc_A1n4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

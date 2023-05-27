@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/canecas"
+    tools:context=".info_datos">
+
+    <Button
+        android:id="@+id/buttonyellow"
+        android:layout_width="101dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="128dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonblue"
+        android:layout_width="101dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="128dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.715"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttongreen"
+        android:layout_width="101dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="356dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonorange"
+        android:layout_width="101dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="356dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonred"
+        android:layout_width="101dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="572dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttongrey"
+        android:layout_width="101dp"
+        android:layout_height="179dp"
+        android:layout_marginTop="572dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="71dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="."
+        android:textColor="#fff"
+        android:textSize="1sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
